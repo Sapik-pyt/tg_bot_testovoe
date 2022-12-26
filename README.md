@@ -40,17 +40,16 @@ pip install -r requirements.txt
 ```
 
 ## Установка проекта с помощью Docker
-```
+
 1. Склонировать репозиторий с Github
 ```
 git clone git@github.com:Sapik-pyt/tg_bot_testovoe.git
 ```
-```
+
 2. Перейти в директорию проекта
-```
-```
+
 3. Файл .env.example переименовать в .env и изменить данные в нем на подходящие вам 
-```
+
 4. Запустить контейнеры 
 ``` 
 sudo docker-compose up -d
