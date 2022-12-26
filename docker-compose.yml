@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+    bot:
+        restart: always
+        environment:
+            - BOT_API
+            - HOST
+            - USER
+            - PASSWORD
+            - NAME_DB
+        depends_on:
+            - db
+    db:
+        image: postgres:15-alpine
+        restart: always
+        environment:
+            POSTGRES_USER: ${USER}
+            POSTGRES_PASSWORD: ${PASSWORD}
+            POSTGRES_DB: ${NAME_DB}
+        volumes:
+            - "/path/to/your/postgres/directory:/var/lib/postgresql/data"
