@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ```
 
 ## Установка проекта с помощью Docker
-
+```
 1. Склонировать репозиторий с Github
 ```
 git clone git@github.com:Sapik-pyt/notification-service.git
