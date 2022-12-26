@@ -34,8 +34,9 @@ source \venv\Scripts\activate
 5. Файл .env.example переименовать в .env
    Заполнить все недостающие поля
 ````
-6. Установка зависимостей:
 
+```
+6. Установка зависимостей:
 ```
 pip install -r requirements.txt
 ```
